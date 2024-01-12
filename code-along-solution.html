@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Access Passes App</title>
+  </head>
+  <body>
+    <main>
+      <h1>Access Passes App</h1>
+      <section>
+        <h2>Access Passes</h2>
+        <!-- TODO: Add link to pass photos -->
+        <p>See more access passes in our website.</p>
+
+        <a target="_blank" href="https://workspace.metacamp.so">
+          <img
+            src="https://i.ibb.co/xJkZRwZ/day-pass-card-image.webp"
+            alt="An image of one-day access pass."
+          />
+        </a>
+      </section>
+      <section>
+        <h2>Passes Facts.</h2>
+        <h3>Benefits of passes:</h3>
+        <ul>
+          <li>Desk Seating</li>
+          <li>Lounge Access</li>
+          <li>Shared Amenities</li>
+        </ul>
+        <img
+          src="https://i.ibb.co/WskVR1f/metacamp-lounge.jpg"
+          alt="A panoramic view of Metacamp's lounge."
+          width="480"
+        />
+      </section>
+      <section>
+        <h2>Registration Form</h2>
+        <form action="https://metacamp.so.com/submit-pass-registration">
+          <fieldset>
+            <legend>Which access pass are you interested in purchasing?</legend>
+            <label
+              ><input type="radio" id="day" name="pass-type" value="day" />
+              Day-Pass
+            </label>
+            <label
+              ><input type="radio" id="hot" name="pass-type" value="hot" />
+              Hot-Desk
+            </label>
+            <label
+              ><input type="radio" id="fixed" name="pass-type" value="fixed" />
+              Fixed-Desk
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Any add-ons you would like to add?</legend>
+            <label
+              ><input
+                type="checkbox"
+                id="microphone"
+                name="microphone"
+                checked
+              />
+              Microphone
+            </label>
+            <label
+              ><input type="checkbox" id="monitor" name="monitor" /> Monitor
+            </label>
+            <label
+              ><input type="checkbox" id="webcam" name="webcam" /> Webcam
+            </label>
+          </fieldset>
+          <input type="text" name="cardphotourl" required />
+          <button>Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>No Copyright - <a href="https://metacamp.so">metacamp.so</a></p>
+    </footer>
+  </body>
+</html>
